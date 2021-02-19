@@ -16,7 +16,7 @@ public class Compra {
 		double total = 0;
 		for(Item item:itens) {
 			total += item.quantidade * item.preco;
-		}
+		} 
 		return total;
 	}
 	
